@@ -1,1 +1,3 @@
-JavaScript Learning
+JavaScript Learning:
+
+Boy, is this FUN!!
