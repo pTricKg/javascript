@@ -1,6 +1,6 @@
 //looping through a list
 var i;
-var animals = ["cat", "dog", "ferret"];
+var animals = ["dog", "ferret", "lizard"];
 
 // Loop through array
 for (var i = 0; i < animals.length; i++) {
@@ -9,7 +9,7 @@ for (var i = 0; i < animals.length; i++) {
 
 //setting length to make for quicker
 var i;
-var animals = ["cat", "dog", "ferret"];
+var animals = ["dog", "ferret", "lizard"];
 
 var length = 3;
 
@@ -38,6 +38,8 @@ var substring = function(input,start,end) {
         console.log(input[i]);//one character per line
 }
     };
+
+
 //Testing substring to see it print
 substring("lorem ipsum dolor",6,10);
 
@@ -54,5 +56,16 @@ return subset;
     };
 //Testing substring to see it print
 console.log(substring("lorem ipsum dolor",6,10));
+
+//
+//nesting loops
+var i = 0;
+var j = 0;
+
+for (i = 1; i <=3; i++) {
+    for (j = 1; j <= 5; j++) {
+        console.log(j);
+    }
+}
 
 
