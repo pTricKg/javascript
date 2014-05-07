@@ -1,4 +1,4 @@
-/*blackJack.js*/
+/*blackJack*/
 
 console.log("I'm ready to build a blackjack game!");
 
@@ -6,7 +6,7 @@ console.log("I'm ready to build a blackjack game!");
 var randomRating = Math.random() * 10;
 
 
-console.log(randomRating);
+console.log(randomRating);//checking
 
 //function to deal 2 cards
 function twoRandomScores() {
@@ -17,8 +17,8 @@ function twoRandomScores() {
 }
 
 twoRandomScores();
-
-//communication score to user
+console.log("I got the score " + twoRandomScores());
+//communicate score to user
 var randomScore = Math.random() * 52;
 
 console.log("I got the score " + randomScore.toFixed(0));
