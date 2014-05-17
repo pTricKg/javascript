@@ -1,3 +1,4 @@
 JavaScript Learning:
 
-Boy, is this FUN!!
+Having some fun with some JS!!
+
