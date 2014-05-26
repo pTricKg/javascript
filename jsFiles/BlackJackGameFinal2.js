@@ -1,4 +1,5 @@
 /* BLACK JACK */
+$(window).load(function(){
 
 var wantPlay = confirm("You want to play Black Jack?");
 
@@ -125,5 +126,6 @@ var playGame = function() {
 };
 playGame();
 wantPlay = false;
+}
 }
 
