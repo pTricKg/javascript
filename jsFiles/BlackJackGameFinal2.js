@@ -115,7 +115,7 @@ function declareWinner(userHands,dealerHands) {
     }else if ((userHand < dealerHand || userHand > 21) && dealerHand <= 21){
 		return 'You lose!';
 	}else if (userHand === dealerHand || (userHand > 21 && dealerHand > 21)){
-		return 'You tied!';
+	return 'You tied!';
     }
 }
 var playGame = function() {
